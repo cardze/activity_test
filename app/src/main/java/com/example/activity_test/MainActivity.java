@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.setClass(MainActivity.this,Second.class);
                 startActivity(intent);
             }else if(v.getId() == R.id.play_button){
-                mediaplayer=MediaPlayer.create(getApplicationContext(),R.raw.cover_a_rainy_dancer_yama);
+                mediaplayer=MediaPlayer.create(getApplicationContext(),R.raw.bai_ri);
                 mediaplayer.start();
             }else if (v.getId() == R.id.btnFinish) finish();
         }
